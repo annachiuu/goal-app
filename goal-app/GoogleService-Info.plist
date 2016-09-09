@@ -7,21 +7,21 @@
 	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
 	<string>ca-app-pub-3940256099942544/4411468910</string>
 	<key>CLIENT_ID</key>
-	<string>317265480375-kfg8ouu6r85n7j886n5fpcpfbjfdmudb.apps.googleusercontent.com</string>
+	<string>256641624296-8bib6o6o2r4jtqlkr0pfs2r6c5oq38rq.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.317265480375-kfg8ouu6r85n7j886n5fpcpfbjfdmudb</string>
+	<string>com.googleusercontent.apps.256641624296-8bib6o6o2r4jtqlkr0pfs2r6c5oq38rq</string>
 	<key>API_KEY</key>
-	<string>AIzaSyBPkHMuOpBtUIlIikZoWN3wD-gueUrhndo</string>
+	<string>AIzaSyCGTO5OrmCr7cvgad44QuIvaTs_DZBGC5k</string>
 	<key>GCM_SENDER_ID</key>
-	<string>317265480375</string>
+	<string>256641624296</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>Chiu.first-social-media</string>
+	<string>anna.goal-app</string>
 	<key>PROJECT_ID</key>
-	<string>first-social-media-project</string>
+	<string>goal-tracker-app-e17c8</string>
 	<key>STORAGE_BUCKET</key>
-	<string>first-social-media-project.appspot.com</string>
+	<string>goal-tracker-app-e17c8.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<true/>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -33,8 +33,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true/>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:317265480375:ios:11b6cc0147509744</string>
+	<string>1:256641624296:ios:73ae33b8612d2db4</string>
 	<key>DATABASE_URL</key>
-	<string>https://first-social-media-project.firebaseio.com</string>
+	<string>https://goal-tracker-app-e17c8.firebaseio.com</string>
 </dict>
 </plist>

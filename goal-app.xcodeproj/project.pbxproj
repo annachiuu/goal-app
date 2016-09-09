@@ -9,12 +9,44 @@
 /* Begin PBXBuildFile section */
 		84075C451D76A04600B214C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84075C441D76A04600B214C1 /* AppDelegate.swift */; };
 		84075C471D76A04600B214C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84075C461D76A04600B214C1 /* ViewController.swift */; };
-		84075C4A1D76A04600B214C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84075C481D76A04600B214C1 /* Main.storyboard */; };
 		84075C4D1D76A04600B214C1 /* goal_app.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84075C4B1D76A04600B214C1 /* goal_app.xcdatamodeld */; };
 		84075C4F1D76A04600B214C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84075C4E1D76A04600B214C1 /* Assets.xcassets */; };
 		84075C521D76A04600B214C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84075C501D76A04600B214C1 /* LaunchScreen.storyboard */; };
 		84075C5D1D76A04600B214C1 /* goal_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84075C5C1D76A04600B214C1 /* goal_appTests.swift */; };
 		84075C681D76A04600B214C1 /* goal_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84075C671D76A04600B214C1 /* goal_appUITests.swift */; };
+		845037041D7CA82D005027F5 /* goal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845037031D7CA82D005027F5 /* goal.swift */; };
+		845037061D7CB38B005027F5 /* goalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845037051D7CB38B005027F5 /* goalCell.swift */; };
+		845037081D7CCBAA005027F5 /* HomepageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845037071D7CCBAA005027F5 /* HomepageVC.swift */; };
+		8458A9AC1D7CE44C000CEE16 /* MasterLayover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8458A9AB1D7CE44C000CEE16 /* MasterLayover.swift */; };
+		8458A9AE1D7D2EE1000CEE16 /* addGoalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8458A9AD1D7D2EE1000CEE16 /* addGoalVC.swift */; };
+		84C25A3D1D76A407002B2A69 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C25A3A1D76A407002B2A69 /* FBSDKCoreKit.framework */; };
+		84C25A3E1D76A407002B2A69 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C25A3B1D76A407002B2A69 /* FBSDKLoginKit.framework */; };
+		84C25A3F1D76A407002B2A69 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C25A3C1D76A407002B2A69 /* FBSDKShareKit.framework */; };
+		84C25A541D77EE8F002B2A69 /* Raleway-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84C25A411D77EE8E002B2A69 /* Raleway-Black.ttf */; };
+		84C25A551D77EE8F002B2A69 /* Raleway-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84C25A421D77EE8E002B2A69 /* Raleway-BlackItalic.ttf */; };
+		84C25A561D77EE8F002B2A69 /* Raleway-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84C25A431D77EE8E002B2A69 /* Raleway-Bold.ttf */; };
+		84C25A571D77EE8F002B2A69 /* Raleway-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84C25A441D77EE8E002B2A69 /* Raleway-BoldItalic.ttf */; };
+		84C25A581D77EE8F002B2A69 /* Raleway-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84C25A451D77EE8E002B2A69 /* Raleway-ExtraBold.ttf */; };
+		84C25A591D77EE8F002B2A69 /* Raleway-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84C25A461D77EE8E002B2A69 /* Raleway-ExtraBoldItalic.ttf */; };
+		84C25A5A1D77EE8F002B2A69 /* Raleway-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84C25A471D77EE8E002B2A69 /* Raleway-ExtraLight.ttf */; };
+		84C25A5B1D77EE8F002B2A69 /* Raleway-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84C25A481D77EE8E002B2A69 /* Raleway-ExtraLightItalic.ttf */; };
+		84C25A5C1D77EE8F002B2A69 /* Raleway-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84C25A491D77EE8E002B2A69 /* Raleway-Italic.ttf */; };
+		84C25A5D1D77EE8F002B2A69 /* Raleway-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84C25A4A1D77EE8E002B2A69 /* Raleway-Light.ttf */; };
+		84C25A5E1D77EE8F002B2A69 /* Raleway-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84C25A4B1D77EE8E002B2A69 /* Raleway-LightItalic.ttf */; };
+		84C25A5F1D77EE8F002B2A69 /* Raleway-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84C25A4C1D77EE8E002B2A69 /* Raleway-Medium.ttf */; };
+		84C25A601D77EE8F002B2A69 /* Raleway-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84C25A4D1D77EE8E002B2A69 /* Raleway-MediumItalic.ttf */; };
+		84C25A611D77EE8F002B2A69 /* Raleway-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84C25A4E1D77EE8E002B2A69 /* Raleway-Regular.ttf */; };
+		84C25A621D77EE8F002B2A69 /* Raleway-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84C25A4F1D77EE8E002B2A69 /* Raleway-SemiBold.ttf */; };
+		84C25A631D77EE8F002B2A69 /* Raleway-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84C25A501D77EE8E002B2A69 /* Raleway-SemiBoldItalic.ttf */; };
+		84C25A641D77EE8F002B2A69 /* Raleway-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84C25A511D77EE8E002B2A69 /* Raleway-Thin.ttf */; };
+		84C25A651D77EE8F002B2A69 /* Raleway-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84C25A521D77EE8E002B2A69 /* Raleway-ThinItalic.ttf */; };
+		84C25A661D77EE8F002B2A69 /* SIL Open Font License.txt in Resources */ = {isa = PBXBuildFile; fileRef = 84C25A531D77EE8E002B2A69 /* SIL Open Font License.txt */; };
+		84C25A681D77F119002B2A69 /* MasterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C25A671D77F119002B2A69 /* MasterButton.swift */; };
+		84C25A6C1D780543002B2A69 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C25A6B1D780543002B2A69 /* DataService.swift */; };
+		84C25A6E1D780A30002B2A69 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C25A6D1D780A30002B2A69 /* Constants.swift */; };
+		84C25A701D7810F9002B2A69 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84C25A6F1D7810F9002B2A69 /* GoogleService-Info.plist */; };
+		84DF18EA1D7E34EC00E5D9B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DF18E81D7E34EC00E5D9B8 /* Main.storyboard */; };
+		8EA8BAB3F6C3ED29882F5835 /* Pods_goal_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56191E08A5395D9C2462C6D7 /* Pods_goal_app.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +67,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3DCDED78B4DCBA49A101D9D4 /* Pods-goal-app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-goal-app.debug.xcconfig"; path = "Pods/Target Support Files/Pods-goal-app/Pods-goal-app.debug.xcconfig"; sourceTree = "<group>"; };
+		56191E08A5395D9C2462C6D7 /* Pods_goal_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_goal_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84075C411D76A04500B214C1 /* goal-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "goal-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84075C441D76A04600B214C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		84075C461D76A04600B214C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		84075C491D76A04600B214C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84075C461D76A04600B214C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "goal-app/ViewController.swift"; sourceTree = "<group>"; };
 		84075C4C1D76A04600B214C1 /* goal_app.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = goal_app.xcdatamodel; sourceTree = "<group>"; };
 		84075C4E1D76A04600B214C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84075C511D76A04600B214C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +82,39 @@
 		84075C631D76A04600B214C1 /* goal-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "goal-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84075C671D76A04600B214C1 /* goal_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = goal_appUITests.swift; sourceTree = "<group>"; };
 		84075C691D76A04600B214C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		845037031D7CA82D005027F5 /* goal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = goal.swift; sourceTree = "<group>"; };
+		845037051D7CB38B005027F5 /* goalCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = goalCell.swift; sourceTree = "<group>"; };
+		845037071D7CCBAA005027F5 /* HomepageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomepageVC.swift; sourceTree = "<group>"; };
+		8458A9AB1D7CE44C000CEE16 /* MasterLayover.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterLayover.swift; sourceTree = "<group>"; };
+		8458A9AD1D7D2EE1000CEE16 /* addGoalVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addGoalVC.swift; sourceTree = "<group>"; };
+		84C25A3A1D76A407002B2A69 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "FacebookSDKs-iOS-4.15.0/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
+		84C25A3B1D76A407002B2A69 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "FacebookSDKs-iOS-4.15.0/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
+		84C25A3C1D76A407002B2A69 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = "FacebookSDKs-iOS-4.15.0/FBSDKShareKit.framework"; sourceTree = "<group>"; };
+		84C25A411D77EE8E002B2A69 /* Raleway-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Black.ttf"; sourceTree = "<group>"; };
+		84C25A421D77EE8E002B2A69 /* Raleway-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-BlackItalic.ttf"; sourceTree = "<group>"; };
+		84C25A431D77EE8E002B2A69 /* Raleway-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Bold.ttf"; sourceTree = "<group>"; };
+		84C25A441D77EE8E002B2A69 /* Raleway-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-BoldItalic.ttf"; sourceTree = "<group>"; };
+		84C25A451D77EE8E002B2A69 /* Raleway-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-ExtraBold.ttf"; sourceTree = "<group>"; };
+		84C25A461D77EE8E002B2A69 /* Raleway-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		84C25A471D77EE8E002B2A69 /* Raleway-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-ExtraLight.ttf"; sourceTree = "<group>"; };
+		84C25A481D77EE8E002B2A69 /* Raleway-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		84C25A491D77EE8E002B2A69 /* Raleway-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Italic.ttf"; sourceTree = "<group>"; };
+		84C25A4A1D77EE8E002B2A69 /* Raleway-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Light.ttf"; sourceTree = "<group>"; };
+		84C25A4B1D77EE8E002B2A69 /* Raleway-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-LightItalic.ttf"; sourceTree = "<group>"; };
+		84C25A4C1D77EE8E002B2A69 /* Raleway-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Medium.ttf"; sourceTree = "<group>"; };
+		84C25A4D1D77EE8E002B2A69 /* Raleway-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-MediumItalic.ttf"; sourceTree = "<group>"; };
+		84C25A4E1D77EE8E002B2A69 /* Raleway-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Regular.ttf"; sourceTree = "<group>"; };
+		84C25A4F1D77EE8E002B2A69 /* Raleway-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-SemiBold.ttf"; sourceTree = "<group>"; };
+		84C25A501D77EE8E002B2A69 /* Raleway-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		84C25A511D77EE8E002B2A69 /* Raleway-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Thin.ttf"; sourceTree = "<group>"; };
+		84C25A521D77EE8E002B2A69 /* Raleway-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-ThinItalic.ttf"; sourceTree = "<group>"; };
+		84C25A531D77EE8E002B2A69 /* SIL Open Font License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "SIL Open Font License.txt"; sourceTree = "<group>"; };
+		84C25A671D77F119002B2A69 /* MasterButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterButton.swift; sourceTree = "<group>"; };
+		84C25A6B1D780543002B2A69 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		84C25A6D1D780A30002B2A69 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		84C25A6F1D7810F9002B2A69 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		84DF18E91D7E34EC00E5D9B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "goal-app/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
+		BEA4F7BBC83833198393ADDD /* Pods-goal-app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-goal-app.release.xcconfig"; path = "Pods/Target Support Files/Pods-goal-app/Pods-goal-app.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +122,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84C25A3F1D76A407002B2A69 /* FBSDKShareKit.framework in Frameworks */,
+				8EA8BAB3F6C3ED29882F5835 /* Pods_goal_app.framework in Frameworks */,
+				84C25A3D1D76A407002B2A69 /* FBSDKCoreKit.framework in Frameworks */,
+				84C25A3E1D76A407002B2A69 /* FBSDKLoginKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,13 +146,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		262CEC2AC292A237913F8A25 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				56191E08A5395D9C2462C6D7 /* Pods_goal_app.framework */,
+				84C25A3A1D76A407002B2A69 /* FBSDKCoreKit.framework */,
+				84C25A3B1D76A407002B2A69 /* FBSDKLoginKit.framework */,
+				84C25A3C1D76A407002B2A69 /* FBSDKShareKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		84075C381D76A04500B214C1 = {
 			isa = PBXGroup;
 			children = (
+				845037021D7CA2B5005027F5 /* Controller */,
+				845037011D7CA2AD005027F5 /* View */,
+				84C25A6A1D780539002B2A69 /* DataService */,
+				84C25A691D77F11D002B2A69 /* Model */,
 				84075C431D76A04600B214C1 /* goal-app */,
 				84075C5B1D76A04600B214C1 /* goal-appTests */,
 				84075C661D76A04600B214C1 /* goal-appUITests */,
 				84075C421D76A04500B214C1 /* Products */,
+				CF169F039409DFA336706E3C /* Pods */,
+				262CEC2AC292A237913F8A25 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,12 +187,12 @@
 			isa = PBXGroup;
 			children = (
 				84075C441D76A04600B214C1 /* AppDelegate.swift */,
-				84075C461D76A04600B214C1 /* ViewController.swift */,
-				84075C481D76A04600B214C1 /* Main.storyboard */,
 				84075C4E1D76A04600B214C1 /* Assets.xcassets */,
 				84075C501D76A04600B214C1 /* LaunchScreen.storyboard */,
 				84075C531D76A04600B214C1 /* Info.plist */,
 				84075C4B1D76A04600B214C1 /* goal_app.xcdatamodeld */,
+				84C25A6F1D7810F9002B2A69 /* GoogleService-Info.plist */,
+				84C25A401D77EE8E002B2A69 /* raleway */,
 			);
 			path = "goal-app";
 			sourceTree = "<group>";
@@ -128,6 +215,79 @@
 			path = "goal-appUITests";
 			sourceTree = "<group>";
 		};
+		845037011D7CA2AD005027F5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				84C25A671D77F119002B2A69 /* MasterButton.swift */,
+				845037051D7CB38B005027F5 /* goalCell.swift */,
+				8458A9AB1D7CE44C000CEE16 /* MasterLayover.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		845037021D7CA2B5005027F5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				84075C461D76A04600B214C1 /* ViewController.swift */,
+				845037071D7CCBAA005027F5 /* HomepageVC.swift */,
+				8458A9AD1D7D2EE1000CEE16 /* addGoalVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		84C25A401D77EE8E002B2A69 /* raleway */ = {
+			isa = PBXGroup;
+			children = (
+				84C25A411D77EE8E002B2A69 /* Raleway-Black.ttf */,
+				84C25A421D77EE8E002B2A69 /* Raleway-BlackItalic.ttf */,
+				84C25A431D77EE8E002B2A69 /* Raleway-Bold.ttf */,
+				84C25A441D77EE8E002B2A69 /* Raleway-BoldItalic.ttf */,
+				84C25A451D77EE8E002B2A69 /* Raleway-ExtraBold.ttf */,
+				84C25A461D77EE8E002B2A69 /* Raleway-ExtraBoldItalic.ttf */,
+				84C25A471D77EE8E002B2A69 /* Raleway-ExtraLight.ttf */,
+				84C25A481D77EE8E002B2A69 /* Raleway-ExtraLightItalic.ttf */,
+				84C25A491D77EE8E002B2A69 /* Raleway-Italic.ttf */,
+				84C25A4A1D77EE8E002B2A69 /* Raleway-Light.ttf */,
+				84C25A4B1D77EE8E002B2A69 /* Raleway-LightItalic.ttf */,
+				84C25A4C1D77EE8E002B2A69 /* Raleway-Medium.ttf */,
+				84C25A4D1D77EE8E002B2A69 /* Raleway-MediumItalic.ttf */,
+				84C25A4E1D77EE8E002B2A69 /* Raleway-Regular.ttf */,
+				84C25A4F1D77EE8E002B2A69 /* Raleway-SemiBold.ttf */,
+				84C25A501D77EE8E002B2A69 /* Raleway-SemiBoldItalic.ttf */,
+				84C25A511D77EE8E002B2A69 /* Raleway-Thin.ttf */,
+				84C25A521D77EE8E002B2A69 /* Raleway-ThinItalic.ttf */,
+				84C25A531D77EE8E002B2A69 /* SIL Open Font License.txt */,
+			);
+			path = raleway;
+			sourceTree = "<group>";
+		};
+		84C25A691D77F11D002B2A69 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				845037031D7CA82D005027F5 /* goal.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		84C25A6A1D780539002B2A69 /* DataService */ = {
+			isa = PBXGroup;
+			children = (
+				84C25A6B1D780543002B2A69 /* DataService.swift */,
+				84C25A6D1D780A30002B2A69 /* Constants.swift */,
+				84DF18E81D7E34EC00E5D9B8 /* Main.storyboard */,
+			);
+			name = DataService;
+			sourceTree = "<group>";
+		};
+		CF169F039409DFA336706E3C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3DCDED78B4DCBA49A101D9D4 /* Pods-goal-app.debug.xcconfig */,
+				BEA4F7BBC83833198393ADDD /* Pods-goal-app.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +295,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84075C6C1D76A04600B214C1 /* Build configuration list for PBXNativeTarget "goal-app" */;
 			buildPhases = (
+				555A90A04AD667D0B00DBF53 /* [CP] Check Pods Manifest.lock */,
 				84075C3D1D76A04500B214C1 /* Sources */,
 				84075C3E1D76A04500B214C1 /* Frameworks */,
 				84075C3F1D76A04500B214C1 /* Resources */,
+				ECD9623031D02C6213E3789B /* [CP] Embed Pods Frameworks */,
+				679DCC7B5CC5ADFBB7631EDF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,9 +398,29 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84C25A621D77EE8F002B2A69 /* Raleway-SemiBold.ttf in Resources */,
+				84C25A701D7810F9002B2A69 /* GoogleService-Info.plist in Resources */,
+				84C25A5B1D77EE8F002B2A69 /* Raleway-ExtraLightItalic.ttf in Resources */,
+				84C25A5F1D77EE8F002B2A69 /* Raleway-Medium.ttf in Resources */,
+				84C25A561D77EE8F002B2A69 /* Raleway-Bold.ttf in Resources */,
+				84C25A5E1D77EE8F002B2A69 /* Raleway-LightItalic.ttf in Resources */,
+				84C25A631D77EE8F002B2A69 /* Raleway-SemiBoldItalic.ttf in Resources */,
+				84C25A641D77EE8F002B2A69 /* Raleway-Thin.ttf in Resources */,
 				84075C521D76A04600B214C1 /* LaunchScreen.storyboard in Resources */,
+				84C25A5D1D77EE8F002B2A69 /* Raleway-Light.ttf in Resources */,
+				84C25A571D77EE8F002B2A69 /* Raleway-BoldItalic.ttf in Resources */,
+				84C25A5C1D77EE8F002B2A69 /* Raleway-Italic.ttf in Resources */,
+				84DF18EA1D7E34EC00E5D9B8 /* Main.storyboard in Resources */,
+				84C25A551D77EE8F002B2A69 /* Raleway-BlackItalic.ttf in Resources */,
 				84075C4F1D76A04600B214C1 /* Assets.xcassets in Resources */,
-				84075C4A1D76A04600B214C1 /* Main.storyboard in Resources */,
+				84C25A591D77EE8F002B2A69 /* Raleway-ExtraBoldItalic.ttf in Resources */,
+				84C25A651D77EE8F002B2A69 /* Raleway-ThinItalic.ttf in Resources */,
+				84C25A581D77EE8F002B2A69 /* Raleway-ExtraBold.ttf in Resources */,
+				84C25A661D77EE8F002B2A69 /* SIL Open Font License.txt in Resources */,
+				84C25A611D77EE8F002B2A69 /* Raleway-Regular.ttf in Resources */,
+				84C25A5A1D77EE8F002B2A69 /* Raleway-ExtraLight.ttf in Resources */,
+				84C25A541D77EE8F002B2A69 /* Raleway-Black.ttf in Resources */,
+				84C25A601D77EE8F002B2A69 /* Raleway-MediumItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,14 +440,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		555A90A04AD667D0B00DBF53 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		679DCC7B5CC5ADFBB7631EDF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-goal-app/Pods-goal-app-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECD9623031D02C6213E3789B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-goal-app/Pods-goal-app-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		84075C3D1D76A04500B214C1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				845037081D7CCBAA005027F5 /* HomepageVC.swift in Sources */,
+				84C25A6C1D780543002B2A69 /* DataService.swift in Sources */,
 				84075C4D1D76A04600B214C1 /* goal_app.xcdatamodeld in Sources */,
+				845037041D7CA82D005027F5 /* goal.swift in Sources */,
+				84C25A681D77F119002B2A69 /* MasterButton.swift in Sources */,
+				8458A9AC1D7CE44C000CEE16 /* MasterLayover.swift in Sources */,
+				845037061D7CB38B005027F5 /* goalCell.swift in Sources */,
 				84075C471D76A04600B214C1 /* ViewController.swift in Sources */,
 				84075C451D76A04600B214C1 /* AppDelegate.swift in Sources */,
+				84C25A6E1D780A30002B2A69 /* Constants.swift in Sources */,
+				8458A9AE1D7D2EE1000CEE16 /* addGoalVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,20 +539,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		84075C481D76A04600B214C1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				84075C491D76A04600B214C1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		84075C501D76A04600B214C1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				84075C511D76A04600B214C1 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		84DF18E81D7E34EC00E5D9B8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84DF18E91D7E34EC00E5D9B8 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -406,23 +645,39 @@
 		};
 		84075C6D1D76A04600B214C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DCDED78B4DCBA49A101D9D4 /* Pods-goal-app.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FacebookSDKs-iOS-4.15.0",
+				);
 				INFOPLIST_FILE = "goal-app/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "anna.goal-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		84075C6E1D76A04600B214C1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEA4F7BBC83833198393ADDD /* Pods-goal-app.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FacebookSDKs-iOS-4.15.0",
+				);
 				INFOPLIST_FILE = "goal-app/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "anna.goal-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -491,6 +746,7 @@
 				84075C6E1D76A04600B214C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84075C6F1D76A04600B214C1 /* Build configuration list for PBXNativeTarget "goal-appTests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +755,7 @@
 				84075C711D76A04600B214C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84075C721D76A04600B214C1 /* Build configuration list for PBXNativeTarget "goal-appUITests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +764,7 @@
 				84075C741D76A04600B214C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

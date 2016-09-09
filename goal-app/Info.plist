@@ -43,5 +43,35 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>fb316490422036839</string>
+			</array>
+		</dict>
+	</array>
+	<key>FacebookAppID</key>
+	<string>316490422036839</string>
+	<key>FacebookDisplayName</key>
+	<string>goal-app</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>fbapi</string>
+		<string>fb-messenger-api</string>
+		<string>fbauth2</string>
+		<string>fbshareextension</string>
+	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Raleway-Black.ttf</string>
+		<string>Raleway-Italic.ttf</string>
+		<string>Raleway-Thin.ttf</string>
+		<string>Raleway-Bold.ttf</string>
+		<string>Raleway-Extralight.ttf</string>
+		<string>Raleway-Light.ttf</string>
+		<string>Raleway-Extralight.ttf</string>
+	</array>
 </dict>
 </plist>
